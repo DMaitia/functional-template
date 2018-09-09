@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d777f1-2806-413c-87a0-0fe9e5cc0d33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Clojure_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funcional-template.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/clojure-1.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core.specs.alpha-0.1.24.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spec.alpha-0.1.143.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise2.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise3.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +39,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="clj" value="11" />
+          <entry key="clj" value="13" />
           <entry key="md" value="2" />
           <entry key="snippet" value="1" />
           <entry key="xml" value="1" />
@@ -54,7 +47,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Clojure" value="11" />
+          <entry key="Clojure" value="13" />
           <entry key="Markdown" value="2" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="1" />
@@ -62,13 +55,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="clj" value="755" />
+          <entry key="clj" value="1049" />
           <entry key="txt" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Clojure" value="755" />
+          <entry key="Clojure" value="1049" />
           <entry key="PLAIN_TEXT" value="58" />
         </counts>
       </usages-collector>
@@ -85,11 +78,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercise2.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/exercise3_test.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exercise3.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="71" lean-forward="true" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -107,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/src/exercise1.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -116,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/test/exercise2_test.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -145,11 +156,12 @@
         <option value="$PROJECT_DIR$/test/exercise2_test.clj" />
         <option value="$PROJECT_DIR$/src/exercise1.clj" />
         <option value="$PROJECT_DIR$/src/exercise2.clj" />
+        <option value="$PROJECT_DIR$/src/exercise3.clj" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="82" />
+    <option name="x" value="56" />
     <option name="y" value="23" />
     <option name="width" value="1809" />
     <option name="height" value="935" />
@@ -309,7 +321,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -353,7 +367,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="ReplState" timestamp="1536523707469">{:repl-history {:ide [], :local [{:command &quot;(ns exercise1-test\n  (:require [clojure.test :refer :all]\n            [exercise1 :refer :all]))\n\n(deftest ten-minus-by-two-test-positive\n         (testing \&quot;Tests with a value that makes the result positive.\&quot;\n                  (is (= (ten-minus-by-two 4) 2))))\n\n(deftest ten-minus-by-two-test-negative\n         (testing \&quot;Tests with a value that makes the result negative.\&quot;\n                  (is (= (ten-minus-by-two 7) -4))))\n\n(deftest ten-minus-by-two-test-zero\n         (testing \&quot;Tests with a value that makes the result zero.\&quot;\n                  (is (= (ten-minus-by-two 5) 0))))&quot;, :offset 580, :ns &quot;user&quot;} {:command &quot;(ns exercise1-test\n  (:require [clojure.test :refer :all]\n            [exercise1 :refer :all]))&quot;, :offset 95, :ns &quot;exercise1-test&quot;} {:command &quot;len (deftest name\n  (is (= first second))\n  )&quot;, :offset 45, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1536528473524">{:repl-history {:ide [], :local [{:command &quot;(ns exercise1-test\n  (:require [clojure.test :refer :all]\n            [exercise1 :refer :all]))\n\n(deftest ten-minus-by-two-test-positive\n         (testing \&quot;Tests with a value that makes the result positive.\&quot;\n                  (is (= (ten-minus-by-two 4) 2))))\n\n(deftest ten-minus-by-two-test-negative\n         (testing \&quot;Tests with a value that makes the result negative.\&quot;\n                  (is (= (ten-minus-by-two 7) -4))))\n\n(deftest ten-minus-by-two-test-zero\n         (testing \&quot;Tests with a value that makes the result zero.\&quot;\n                  (is (= (ten-minus-by-two 5) 0))))&quot;, :offset 580, :ns &quot;user&quot;} {:command &quot;(ns exercise1-test\n  (:require [clojure.test :refer :all]\n            [exercise1 :refer :all]))&quot;, :offset 95, :ns &quot;exercise1-test&quot;} {:command &quot;len (deftest name\n  (is (= first second))\n  )&quot;, :offset 45, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -483,12 +497,12 @@
       <workItem from="1536507735965" duration="2682000" />
       <workItem from="1536510742231" duration="1074000" />
       <workItem from="1536512546803" duration="965000" />
-      <workItem from="1536513755118" duration="8845000" />
+      <workItem from="1536513755118" duration="11244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13566000" />
+    <option name="totallyTimeSpent" value="15965000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,7 +514,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="82" y="23" width="1809" height="935" extended-state="0" />
+    <frame x="56" y="23" width="1809" height="935" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20033956" />
@@ -510,22 +524,22 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.32977462" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49858516" visible="true" weight="0.32977462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39976275" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32977462" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49779087" weight="0.32977462" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5022091" side_tool="true" weight="0.32977462" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32977462" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50141484" side_tool="true" weight="0.32977462" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49858516" weight="0.32977462" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24957556" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32993776" />
-      <window_info active="true" anchor="right" x="1237" y="145" width="577" height="565" id="REPL" order="5" side_tool="true" type="FLOATING" visible="true" weight="0.32654217" />
+      <window_info anchor="right" x="1229" y="122" width="577" height="565" id="REPL" order="5" side_tool="true" type="FLOATING" visible="true" weight="0.32654217" />
       <window_info anchor="right" id="Leiningen" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
@@ -618,21 +632,35 @@
     <entry file="file://$PROJECT_DIR$/src/exercise1.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/exercise2_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise2.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exercise2_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exercise3_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise3.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="71" lean-forward="true" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
         </state>
       </provider>
     </entry>
